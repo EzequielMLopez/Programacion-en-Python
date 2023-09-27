@@ -3,9 +3,18 @@ precio_productos= {"Manzana": 3.5, "Leche": 5.5, "Pan": 3.5, "Factura": 2.75}
 
 def pedidos_procesados(pedidos):
 
-
     for a in pedidos:
-        print(a)
+        #print(a)
+        for value in a.values():
+            if type(value) == dict: 
+                for key, valor in value.items():
+                    print(type(valor))
+                    #if valor < stock_productos.get(key):
+                    #    print("SIIII")
+                    #    stock_productos.update({key: stock_productos.get(key) - valor})
+                    #    print(stock_productos)
+                    #else:
+                    #    print("BASTA")
 
 
 if __name__ == "__main__":
@@ -20,6 +29,7 @@ if __name__ == "__main__":
             "productos": {"Manzanas": 2, "Pan": 4, "Factura": 6}
         }
     ]
-
+            
+    print(type(stock_productos.get("Manzana")))
     pedidos_procesados(pedidos)
     
