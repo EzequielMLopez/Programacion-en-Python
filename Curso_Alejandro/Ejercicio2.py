@@ -7,30 +7,31 @@ def procesar_pedidos(pedidos):
     pedidos_procesados= []
 
     for pedido in pedidos:
-        #print(pedido)
+        precio_total= 0
         for value in pedido.values():
             if type(value) == dict: 
-                #print(value.keys())
                 for key, valor in value.items():
-                #    print(type(valor))
-                #    print(key)
-                #    print(stock_productos.get(key))
                     if valor < stock_productos.get(key):
-                        #print("SIIII")
                         stock_productos.update({key: stock_productos.get(key) - valor})
-                        print(stock_productos)
                         precio_total += precio_productos.get(key)
                         estado= "completo"
                     else:
                         stock_productos.update({key: 0})
+                        precio_total = precio_total + (precio_productos.get(key) * valor)
                         estado= "incompleto"
-
-        pedidos_procesados.append(pedido.update({"estado": estado}))
+                        
+        pedido.update({"estado": estado})
+        pedido.update({"precio_total": precio_total})
+        pedidos_procesados.append(pedido)
+        #pedidos_procesados.append(pedido.update({"estado": estado}))
+        #pedidos_procesados.append(pedido.update({"precio_total": precio_total}))
+        #print(pedidos_procesados)
+        #return pedidos
+        #pedidos_procesados.append(pedido.update({"estado": f"{estado}))
     
-    
-        print(pedidos_procesados)
-
+    print(stock_productos)
     return pedidos_procesados
+
 
 if __name__ == "__main__":
     pedidos=[
