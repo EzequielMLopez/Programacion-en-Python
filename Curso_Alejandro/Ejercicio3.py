@@ -13,4 +13,3 @@ def min_to_may(palabra):
 
 palabrita= "Estocolmo es lo mEJor"
 print(min_to_may(palabrita))
-print("Cambio de prueba")
