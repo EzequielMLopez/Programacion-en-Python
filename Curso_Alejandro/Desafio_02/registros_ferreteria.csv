@@ -1,0 +1,201 @@
+Nombre,Codigo,Precio,CantidadStock,Categoria,Proveedor,Peso(kg),Material,Descuento(%),VentasMensuales
+Clavos,5307,41.77,83,Electricidad,ProveedorC,2.71,Acero,7,47
+Tornillos,5701,47.18,81,Ferreteria,ProveedorC,8.12,Aluminio,7,77
+Herramienta multiusos,9377,17.66,10,Electricidad,ProveedorA,13.09,Plastico,9,14
+Brocas,1257,80.89,52,Electricidad,ProveedorC,4.62,Acero,17,44
+Herramienta multiusos,5246,37.63,17,Pintura,ProveedorB,2.94,Madera,18,44
+Cerradura,5997,34.23,82,Ferreteria,ProveedorC,37.55,Plastico,0,45
+Clavos,4920,37.71,44,Pintura,ProveedorD,14.57,Acero,22,43
+Pala,2354,61.0,10,Plomeria,ProveedorB,44.44,Plastico,11,87
+Pala,9843,27.72,8,Plomeria,ProveedorC,41.95,Madera,18,89
+Brocas,8882,33.2,80,Ferreteria,ProveedorB,42.4,Madera,22,65
+Taladro,4849,31.46,10,Plomeria,ProveedorC,20.49,Madera,21,87
+Pintura,3726,71.96,12,Herramientas,ProveedorA,37.46,Acero,2,21
+Candado,3833,16.32,29,Plomeria,ProveedorB,8.23,Plastico,10,45
+Pala,8498,66.01,62,Plomeria,ProveedorD,33.96,Madera,28,93
+Tornillo de banco,3464,64.83,34,Plomeria,ProveedorA,6.03,Madera,1,56
+Martillo,2930,13.91,20,Ferreteria,ProveedorB,12.6,Acero,11,57
+Tornillo de banco,6185,43.32,78,Plomeria,ProveedorD,13.97,Acero,5,57
+Pala,1355,10.93,39,Ferreteria,ProveedorA,26.4,Aluminio,27,55
+Tornillos,1134,9.38,53,Pintura,ProveedorC,31.14,Plastico,8,16
+Destornillador,6890,48.28,84,Plomeria,ProveedorD,15.13,Plastico,20,41
+Lampara,8529,28.07,15,Plomeria,ProveedorC,22.68,Aluminio,25,84
+Alicates,9173,21.25,17,Plomeria,ProveedorB,29.4,Plastico,10,18
+Sierra,7744,56.99,87,Herramientas,ProveedorA,35.92,Aluminio,23,65
+Pintura,1409,94.58,43,Pintura,ProveedorC,33.07,Plastico,29,81
+Sierra,9191,77.41,80,Pintura,ProveedorB,27.92,Plastico,2,18
+Brocas,9871,48.96,47,Electricidad,ProveedorA,49.02,Acero,14,39
+Pintura,5804,70.43,38,Electricidad,ProveedorD,42.79,Plastico,28,18
+Brocas,8655,49.97,70,Pintura,ProveedorD,31.72,Aluminio,6,13
+Sierra,2791,66.0,24,Pintura,ProveedorA,46.8,Plastico,15,64
+Tornillos,2925,50.12,75,Ferreteria,ProveedorB,17.96,Madera,8,21
+Tornillos,5620,75.84,44,Ferreteria,ProveedorB,29.07,Plastico,21,78
+Llave ajustable,9350,90.86,90,Ferreteria,ProveedorC,38.51,Acero,25,84
+Cerradura,3824,93.73,72,Herramientas,ProveedorA,9.44,Plastico,13,80
+Martillo,4130,77.32,39,Pintura,ProveedorC,1.66,Aluminio,17,97
+Sierra,1835,67.99,60,Electricidad,ProveedorD,44.06,Aluminio,5,79
+Candado,2995,54.55,100,Plomeria,ProveedorA,19.71,Acero,19,17
+Tornillo de banco,9391,95.4,55,Electricidad,ProveedorC,13.88,Aluminio,10,32
+Alicates,5034,71.48,57,Pintura,ProveedorB,36.84,Plastico,4,59
+Alicates,3873,99.72,46,Electricidad,ProveedorB,21.74,Aluminio,29,77
+Tornillo de banco,3507,45.4,50,Electricidad,ProveedorA,9.88,Acero,13,21
+Sierra,5086,46.44,98,Plomeria,ProveedorC,9.4,Madera,3,13
+Llave de tubo,2106,33.04,58,Herramientas,ProveedorC,38.28,Acero,15,100
+Cinta metrica,6912,52.86,41,Pintura,ProveedorC,12.67,Madera,4,10
+Sierra,3335,61.14,2,Electricidad,ProveedorA,14.09,Aluminio,18,69
+Destornillador,6447,39.96,74,Herramientas,ProveedorA,14.05,Aluminio,23,56
+Martillo,1927,93.24,52,Electricidad,ProveedorA,6.95,Madera,22,39
+Brocas,5322,51.41,43,Herramientas,ProveedorB,6.65,Aluminio,19,82
+Pintura,1275,71.31,79,Plomeria,ProveedorD,29.72,Aluminio,6,31
+Alicates,4011,49.21,10,Herramientas,ProveedorA,26.53,Madera,14,77
+Candado,1241,57.31,11,Herramientas,ProveedorD,40.37,Madera,27,43
+Tornillo de banco,5622,6.87,44,Plomeria,ProveedorA,27.14,Aluminio,0,92
+Sierra,1368,45.5,44,Electricidad,ProveedorD,4.33,Aluminio,7,95
+Llave de tubo,9195,36.85,61,Herramientas,ProveedorC,14.95,Madera,4,98
+Tornillos,4088,9.28,10,Plomeria,ProveedorB,37.41,Plastico,30,32
+Llave de tubo,7843,49.92,29,Plomeria,ProveedorC,45.9,Acero,30,67
+Cepillo,5273,60.64,17,Electricidad,ProveedorB,8.11,Aluminio,3,58
+Clavos,4938,37.98,75,Plomeria,ProveedorB,21.35,Madera,18,23
+Taladro,8909,8.83,99,Plomeria,ProveedorC,33.71,Aluminio,1,78
+Sierra,5442,18.32,1,Pintura,ProveedorA,10.21,Aluminio,6,96
+Llave de tubo,1958,26.28,12,Electricidad,ProveedorB,17.8,Aluminio,14,36
+Alicates,6752,93.2,57,Pintura,ProveedorA,31.7,Aluminio,3,36
+Alicates,4352,70.07,90,Pintura,ProveedorD,16.39,Aluminio,18,35
+Cepillo,4430,26.8,45,Ferreteria,ProveedorC,28.79,Aluminio,16,33
+Clavos,7427,9.42,63,Electricidad,ProveedorA,6.38,Plastico,25,82
+Cables electricos,8445,55.44,41,Ferreteria,ProveedorB,15.96,Aluminio,2,46
+Martillo,1461,48.03,8,Electricidad,ProveedorB,42.17,Acero,28,57
+Llave de tubo,4324,28.63,32,Ferreteria,ProveedorC,2.12,Acero,12,73
+Herramienta multiusos,6596,19.09,67,Herramientas,ProveedorD,27.23,Acero,5,12
+Lampara,1907,44.4,79,Ferreteria,ProveedorB,45.84,Acero,2,40
+Tornillos,8721,70.71,69,Electricidad,ProveedorB,27.56,Plastico,22,36
+Clavos,7623,75.52,77,Ferreteria,ProveedorB,4.41,Madera,12,55
+Candado,2254,62.41,83,Pintura,ProveedorD,48.37,Plastico,28,66
+Brocas,2361,55.42,67,Herramientas,ProveedorB,30.28,Acero,17,40
+Cinta metrica,2132,39.39,93,Ferreteria,ProveedorD,36.18,Aluminio,12,95
+Cables electricos,4284,61.03,82,Herramientas,ProveedorC,31.82,Madera,22,100
+Taladro,7462,94.96,57,Pintura,ProveedorC,26.44,Madera,7,89
+Pala,4281,75.7,14,Ferreteria,ProveedorB,20.05,Madera,15,10
+Brocas,4446,7.29,99,Electricidad,ProveedorD,29.44,Plastico,30,13
+Pintura,7226,99.65,46,Ferreteria,ProveedorB,14.49,Plastico,1,54
+Lampara,3384,27.31,39,Herramientas,ProveedorD,10.26,Madera,0,15
+Cerradura,6759,21.55,76,Herramientas,ProveedorC,49.06,Acero,5,18
+Llave ajustable,4951,19.34,87,Herramientas,ProveedorC,45.25,Acero,26,29
+Alicates,4631,21.79,9,Plomeria,ProveedorD,1.35,Plastico,18,34
+Cables electricos,5001,92.66,42,Electricidad,ProveedorB,3.15,Plastico,13,95
+Llave de tubo,8172,65.14,10,Ferreteria,ProveedorC,38.26,Plastico,21,90
+Brocas,1038,91.24,64,Herramientas,ProveedorD,25.58,Madera,14,78
+Brocas,6832,82.04,85,Electricidad,ProveedorD,37.22,Madera,8,48
+Llave ajustable,7522,23.78,61,Plomeria,ProveedorB,41.01,Acero,6,67
+Cables electricos,4165,30.24,30,Ferreteria,ProveedorA,5.35,Acero,27,21
+Tornillos,3384,12.85,62,Pintura,ProveedorD,35.68,Madera,26,52
+Cepillo,9057,13.63,72,Ferreteria,ProveedorD,13.67,Acero,12,97
+Cerradura,3878,82.47,55,Electricidad,ProveedorD,45.64,Aluminio,7,26
+Martillo,9036,19.8,33,Electricidad,ProveedorD,11.52,Plastico,16,98
+Lampara,8189,61.73,11,Plomeria,ProveedorB,7.57,Madera,19,51
+Tornillos,1367,86.73,71,Electricidad,ProveedorC,33.9,Madera,30,30
+Cinta metrica,8389,64.87,69,Electricidad,ProveedorC,30.77,Acero,15,63
+Llave de tubo,3216,95.12,41,Herramientas,ProveedorC,32.55,Madera,6,51
+Tornillos,7520,77.56,98,Electricidad,ProveedorB,38.41,Acero,10,66
+Tornillo de banco,8628,71.74,82,Herramientas,ProveedorD,22.8,Aluminio,4,17
+Martillo,7737,96.64,49,Ferreteria,ProveedorD,35.08,Acero,23,59
+Pintura,7881,15.6,99,Pintura,ProveedorA,40.31,Plastico,3,34
+Pala,3803,88.88,76,Plomeria,ProveedorA,32.61,Madera,11,65
+Llave de tubo,5241,18.05,39,Herramientas,ProveedorC,27.99,Plastico,20,14
+Cinta metrica,8625,60.4,60,Plomeria,ProveedorB,3.67,Aluminio,21,59
+Lampara,4199,69.09,87,Pintura,ProveedorB,16.58,Acero,20,57
+Taladro,9670,48.46,28,Herramientas,ProveedorA,44.88,Aluminio,17,83
+Taladro,3522,64.54,82,Plomeria,ProveedorD,21.85,Aluminio,27,79
+Cables electricos,4942,82.92,50,Plomeria,ProveedorC,40.87,Madera,15,88
+Herramienta multiusos,1496,10.6,19,Pintura,ProveedorB,4.45,Aluminio,3,64
+Clavos,1394,56.22,40,Pintura,ProveedorD,31.31,Acero,10,37
+Martillo,3470,57.62,25,Electricidad,ProveedorB,10.52,Plastico,10,66
+Cepillo,1474,86.02,74,Electricidad,ProveedorC,9.59,Aluminio,3,94
+Cerradura,2545,63.46,73,Plomeria,ProveedorD,34.24,Plastico,20,15
+Taladro,1412,98.62,91,Ferreteria,ProveedorC,36.47,Aluminio,24,57
+Pintura,5794,45.26,40,Pintura,ProveedorD,25.14,Madera,28,98
+Pala,2957,8.79,87,Electricidad,ProveedorB,31.47,Plastico,27,74
+Llave ajustable,1662,28.6,43,Ferreteria,ProveedorB,30.76,Madera,27,18
+Herramienta multiusos,1771,22.63,56,Plomeria,ProveedorA,46.36,Madera,28,27
+Llave de tubo,3251,54.33,95,Herramientas,ProveedorA,36.26,Madera,18,55
+Tornillo de banco,1048,13.78,94,Ferreteria,ProveedorA,26.37,Plastico,21,44
+Taladro,5317,14.27,37,Pintura,ProveedorB,20.07,Plastico,29,22
+Cables electricos,7381,24.09,54,Pintura,ProveedorD,14.37,Acero,13,12
+Taladro,8815,92.43,59,Pintura,ProveedorA,22.82,Plastico,0,86
+Cables electricos,4309,35.82,22,Electricidad,ProveedorA,19.82,Aluminio,5,74
+Cepillo,5390,22.76,75,Ferreteria,ProveedorC,46.13,Plastico,1,17
+Alicates,3159,63.23,41,Plomeria,ProveedorC,24.43,Madera,17,90
+Tornillo de banco,4412,98.31,89,Ferreteria,ProveedorC,30.43,Aluminio,10,87
+Sierra,6160,76.37,2,Pintura,ProveedorA,12.12,Madera,12,92
+Clavos,9761,84.47,29,Herramientas,ProveedorB,24.08,Aluminio,30,62
+Clavos,7872,50.94,43,Electricidad,ProveedorA,39.15,Aluminio,16,98
+Alicates,9554,32.71,32,Pintura,ProveedorB,25.53,Plastico,28,13
+Llave de tubo,8320,90.27,10,Plomeria,ProveedorC,38.27,Madera,5,33
+Llave ajustable,5128,93.82,57,Ferreteria,ProveedorC,20.52,Acero,6,74
+Cepillo,7911,88.22,78,Electricidad,ProveedorB,3.14,Plastico,7,97
+Clavos,6543,62.28,78,Pintura,ProveedorD,12.38,Aluminio,11,88
+Pintura,3850,58.6,78,Ferreteria,ProveedorC,49.48,Madera,24,81
+Brocas,5414,71.75,12,Pintura,ProveedorD,36.01,Plastico,3,25
+Pala,9474,17.35,26,Pintura,ProveedorD,19.99,Acero,25,17
+Candado,5368,66.46,37,Plomeria,ProveedorB,41.14,Acero,16,95
+Llave ajustable,5915,23.54,47,Electricidad,ProveedorC,22.88,Acero,15,30
+Tornillo de banco,9780,43.53,4,Ferreteria,ProveedorC,24.41,Aluminio,7,36
+Cinta metrica,4554,52.92,72,Herramientas,ProveedorB,22.0,Acero,26,85
+Cables electricos,8971,58.62,79,Herramientas,ProveedorD,29.15,Acero,11,94
+Pala,5432,44.63,82,Herramientas,ProveedorA,24.56,Acero,20,65
+Candado,9018,45.06,29,Electricidad,ProveedorA,31.19,Madera,8,59
+Tornillos,5562,41.39,96,Electricidad,ProveedorB,6.57,Acero,8,85
+Taladro,1825,9.63,47,Plomeria,ProveedorB,37.5,Plastico,25,83
+Lampara,4503,70.78,52,Plomeria,ProveedorA,42.86,Madera,12,73
+Brocas,9984,30.35,10,Pintura,ProveedorA,15.35,Aluminio,3,84
+Alicates,6408,73.7,75,Electricidad,ProveedorC,2.99,Madera,6,43
+Cerradura,6460,96.11,55,Plomeria,ProveedorB,47.54,Plastico,26,95
+Llave de tubo,6950,96.69,93,Ferreteria,ProveedorA,32.31,Plastico,17,33
+Cepillo,5584,97.08,50,Ferreteria,ProveedorD,19.15,Plastico,20,51
+Destornillador,2959,52.34,63,Plomeria,ProveedorD,35.91,Acero,16,39
+Tornillo de banco,2528,44.62,76,Pintura,ProveedorC,4.56,Acero,11,27
+Martillo,6339,5.65,94,Electricidad,ProveedorD,16.02,Plastico,27,59
+Pala,1444,76.3,26,Pintura,ProveedorD,33.58,Plastico,4,69
+Taladro,8404,82.33,45,Ferreteria,ProveedorD,25.12,Madera,22,84
+Llave ajustable,7584,55.41,7,Plomeria,ProveedorC,45.08,Aluminio,2,53
+Llave de tubo,6262,31.13,50,Herramientas,ProveedorD,3.71,Aluminio,8,20
+Cerradura,9766,57.5,95,Plomeria,ProveedorB,4.13,Madera,17,100
+Alicates,1435,78.49,18,Electricidad,ProveedorB,1.89,Acero,16,59
+Herramienta multiusos,2025,73.07,19,Electricidad,ProveedorC,33.26,Madera,11,82
+Alicates,3329,63.66,91,Ferreteria,ProveedorC,27.71,Acero,22,45
+Pala,6552,63.16,90,Ferreteria,ProveedorC,25.04,Acero,9,18
+Tornillos,5990,46.78,58,Pintura,ProveedorA,21.76,Plastico,17,61
+Clavos,7892,34.71,11,Herramientas,ProveedorC,22.47,Acero,18,21
+Herramienta multiusos,1310,83.39,48,Ferreteria,ProveedorC,48.28,Aluminio,22,17
+Llave ajustable,1433,18.37,19,Pintura,ProveedorD,15.57,Aluminio,29,77
+Pala,7194,67.89,60,Plomeria,ProveedorB,33.59,Madera,30,73
+Clavos,5531,11.34,79,Pintura,ProveedorB,27.78,Aluminio,16,73
+Pintura,5277,83.23,46,Electricidad,ProveedorC,16.02,Plastico,3,72
+Tornillo de banco,8825,83.56,86,Plomeria,ProveedorB,48.96,Plastico,2,35
+Sierra,8903,84.65,29,Ferreteria,ProveedorC,4.25,Aluminio,19,90
+Martillo,5943,60.91,6,Ferreteria,ProveedorD,4.56,Madera,3,38
+Pala,8483,19.29,14,Pintura,ProveedorD,34.29,Plastico,9,65
+Cinta metrica,5004,63.32,92,Pintura,ProveedorD,20.23,Aluminio,4,32
+Alicates,7746,36.62,67,Electricidad,ProveedorA,16.56,Aluminio,4,54
+Cerradura,7723,31.33,96,Herramientas,ProveedorA,39.74,Madera,3,14
+Lampara,8541,72.79,21,Herramientas,ProveedorD,12.02,Plastico,14,85
+Brocas,6070,46.65,90,Herramientas,ProveedorC,39.68,Plastico,22,95
+Pintura,3773,64.98,59,Pintura,ProveedorD,24.02,Madera,15,58
+Brocas,9585,83.82,43,Ferreteria,ProveedorD,11.46,Aluminio,9,49
+Alicates,8576,29.83,40,Herramientas,ProveedorC,33.77,Acero,1,62
+Sierra,7371,12.74,35,Herramientas,ProveedorD,44.19,Aluminio,4,69
+Tornillo de banco,8922,67.28,13,Ferreteria,ProveedorD,33.63,Madera,5,92
+Cables electricos,5767,63.95,45,Pintura,ProveedorC,22.4,Madera,0,78
+Destornillador,5394,9.87,21,Ferreteria,ProveedorC,37.39,Madera,16,39
+Llave de tubo,3737,45.26,52,Pintura,ProveedorD,9.96,Plastico,22,38
+Tornillos,5500,39.96,39,Herramientas,ProveedorA,47.12,Acero,14,83
+Clavos,2913,73.51,40,Plomeria,ProveedorA,10.75,Acero,27,78
+Clavos,6683,92.65,84,Electricidad,ProveedorB,23.5,Madera,22,50
+Destornillador,8247,92.39,37,Plomeria,ProveedorB,33.49,Aluminio,24,49
+Herramienta multiusos,7527,52.74,35,Ferreteria,ProveedorD,25.03,Plastico,8,35
+Sierra,3246,90.54,47,Ferreteria,ProveedorC,9.5,Madera,22,48
+Sierra,2195,6.07,4,Plomeria,ProveedorC,49.24,Plastico,12,100
+Lampara,2259,23.44,1,Ferreteria,ProveedorA,21.94,Aluminio,14,88
+Sierra,3825,55.33,26,Herramientas,ProveedorC,26.78,Plastico,29,70
+Tornillo de banco,9801,52.87,95,Herramientas,ProveedorA,15.11,Madera,12,20
+Cepillo,1281,75.03,81,Pintura,ProveedorD,37.95,Plastico,6,69

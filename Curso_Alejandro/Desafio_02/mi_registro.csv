@@ -1,0 +1,4 @@
+Nombre,Codigo,Precio,CantidadStock,Categoria,Proveedor,Peso(kg),Material,Descuento(%),VentasMensuales
+Clavos,5307,41.77,83,Electricidad,ProveedorC,2.71,Acero,7,47
+Tornillos,5701,47.18,81,Ferreteria,ProveedorC,8.12,Aluminio,7,77
+Herramienta multiusos,9377,17.66,10,Electricidad,ProveedorA,13.09,Plastico,9,14
