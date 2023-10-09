@@ -57,10 +57,24 @@ def desc_art(registro):
             if lista[0] == "Llave ajustable":
                 print(f"Para el articulo {lista[0]} con código {lista[1]} cuenta con un descuento del {lista[8]}%")
 
+def prov_caro(registro):
+    with open(registro, "r") as registre:
+        next(registre, None)
+    
+        for line in registre:
+            line= line.rstrip()
+            lista= line.split(",")
+
+            if float(lista[2]) > 0:
+                caro= float(lista[2])
+                proovedor= lista[5]
+            
+    print(f"El proveedor del artículo más caro es {proovedor} con un precio de {caro}")
 
 registro= r"C:\Users\tetit\OneDrive\Escritorio\Programacion-en-Python\Curso_Alejandro\Desafio_02\registros_ferreteria.csv"
 #art_cod_7462(registro)
 #art_herramientas(registro)
 #stock_martillo(registro)
 #mat_art_2930(registro)
-desc_art(registro)
+#desc_art(registro)
+prov_caro(registro)
