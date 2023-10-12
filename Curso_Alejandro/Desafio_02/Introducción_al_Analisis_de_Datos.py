@@ -258,6 +258,89 @@ def prom_pre_art(registro):
               En el caso del producto "Cepillo" es: {sumadorS / contadorS:.2f}
               En el caso del producto "Cables electricos" es: {sumadorT / contadorT:.2f}""")
         
+def art_caro(registro):
+    with open(registro, "r") as registre:
+        next(registre, None)
+    
+        for line in registre:
+            line= line.rstrip()
+            lista= line.split(",")
+
+            if float(lista[2]) > 0:
+                caro= lista[0]
+                proveedor= lista[5]
+            
+    print(f"El artículo más caro de la ferretería es \"{caro}\" cuyo proveedor es {proveedor}")
+    
+def art_men_ven(registro):
+    with open(registro, "r") as registre:
+        next(registre, None)
+    
+        for line in registre:
+            line= line.rstrip()
+            lista= line.split(",")
+            
+def prom_stock_cat(registro):
+    contadorA= 0
+    contadorB= 0
+    contadorC= 0
+    contadorD= 0
+    contadorE= 0
+
+    sumadorA= 0
+    sumadorB= 0
+    sumadorC= 0
+    sumadorD= 0
+    sumadorE= 0
+    
+    with open(registro, "r") as registre:
+        next(registre, None)
+    
+        for line in registre:
+            line= line.rstrip()
+            lista= line.split(",")
+            
+            if lista[4] == "Electricidad":
+                contadorA += 1
+                sumadorA += int(lista[3])
+            elif lista[4] == "Ferreteria":
+                contadorB += 1
+                sumadorB += int(lista[3])
+            elif lista[4] == "Pintura":
+                contadorC += 1
+                sumadorC += int(lista[3])
+            elif lista[4] == "Plomeria":
+                contadorD += 1
+                sumadorD += int(lista[3])
+            elif lista[4] == "Herramientas":
+                contadorE += 1
+                sumadorE += int(lista[3])
+
+    print(f"""El promedio en stock para la categoría "Electricidad" es: {sumadorA / contadorA:.2f}
+En el caso de la categoría "Ferreteria" es : {sumadorB / contadorB:.2f}
+En el caso del producto "Herramientas multiusos" es: {sumadorC / contadorC:.2f}
+En el caso del producto "Brocas" es: {sumadorD / contadorD:.2f}
+En el caso del producto "Cerradura" es: {sumadorE / contadorE:.2f}""")
+
+def prom_des(registro):
+    sumador= 0
+    contador= 0
+    
+    with open(registro, "r") as registre:
+        next(registre, None)
+    
+        for line in registre:
+            line= line.rstrip()
+            lista= line.split(",")
+            
+            sumador += float(lista[8])
+            contador += 1
+    
+    print(f"El descuento promedio en porcentaje es de {(sumador / contador)}%")
+    
+
+
+
 registro_window= r"C:\Users\tetit\OneDrive\Escritorio\Programacion-en-Python\Curso_Alejandro\Desafio_02\registros_ferreteria.csv"
 registro_linux= r"/home/eml/Escritorio/Programacion-en-Python/Curso_Alejandro/Desafio_02/registros_ferreteria.csv"
 
@@ -275,5 +358,10 @@ registro_linux= r"/home/eml/Escritorio/Programacion-en-Python/Curso_Alejandro/De
 
 # PREGUNTAS ESTADÍSTICAS
 #prom_pre_art(registro_linux)
+#total_ventas_mensuales(registro_linux) # EN EL .CSV FALTAN LAS VENTAS MENSUALES
+#art_caro(registro_linux)
+#art_men_ven(registro_linux) # EN EL .CSV FALTAN LAS VENTAS MENSUALES
+#prom_stock_cat(registro_linux)
+#prom_des(registro_linux)
 
 
