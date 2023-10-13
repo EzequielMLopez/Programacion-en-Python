@@ -338,8 +338,57 @@ def prom_des(registro):
     
     print(f"El descuento promedio en porcentaje es de {(sumador / contador)}%")
     
-
-
+def cat_may_art(registro):
+    contadorA= 0
+    contadorB= 0
+    contadorC= 0
+    contadorD= 0
+    contadorE= 0
+    
+    with open(registro, "r") as registre:
+        next(registre, None)
+    
+        for line in registre:
+            line= line.rstrip()
+            lista= line.split(",")
+            
+            if lista[4] == "Electricidad":
+                contadorA += 1
+            elif lista[4] == "Ferreteria":
+                contadorB += 1
+            elif lista[4] == "Pintura":
+                contadorC += 1
+            elif lista[4] == "Plomeria":
+                contadorD += 1
+            elif lista[4] == "Herramientas":
+                contadorE += 1
+                
+    if contadorA > (contadorB and contadorC and contadorD and contadorE):
+        print(f"La categoría con mayor cantidad de articulos es {contadorA}")
+    elif contadorB > (contadorA and contadorC and contadorD and contadorE):
+        print(f"La categoría con mayor cantidad de articulos es {contadorB}")
+    elif contadorC > (contadorA and contadorB and contadorD and contadorE):
+        print(f"La categoría con mayor cantidad de articulos es {contadorC}")
+    elif contadorD > (contadorA and contadorB and contadorC and contadorE):
+        print(f"La categoría con mayor cantidad de articulos es {contadorD}")
+    elif contadorE > (contadorA and contadorB and contadorC and contadorD):
+        print(f"La categoría con mayor cantidad de articulos es {contadorE}")
+    
+def cant_art_desc(registro):
+    contador_art= 0
+    with open(registro, "r") as registre:
+        next(registre, None)
+    
+        for line in registre:
+            line= line.rstrip()
+            lista= line.split(",")
+            
+            if int(lista[8]) > 20.00:
+                contador_art += 1
+                
+    print(f"La cantidad de articulos con un descuento mayor al 20% son {contador_art}")
+                
+            
 
 registro_window= r"C:\Users\tetit\OneDrive\Escritorio\Programacion-en-Python\Curso_Alejandro\Desafio_02\registros_ferreteria.csv"
 registro_linux= r"/home/eml/Escritorio/Programacion-en-Python/Curso_Alejandro/Desafio_02/registros_ferreteria.csv"
@@ -363,5 +412,9 @@ registro_linux= r"/home/eml/Escritorio/Programacion-en-Python/Curso_Alejandro/De
 #art_men_ven(registro_linux) # EN EL .CSV FALTAN LAS VENTAS MENSUALES
 #prom_stock_cat(registro_linux)
 #prom_des(registro_linux)
+#cat_may_art(registro_linux)
+#NOSE LA 8
+cant_art_desc(registro_linux)
 
 
+            
