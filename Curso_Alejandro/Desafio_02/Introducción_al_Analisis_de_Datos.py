@@ -414,7 +414,10 @@ registro_linux= r"/home/eml/Escritorio/Programacion-en-Python/Curso_Alejandro/De
 #prom_des(registro_linux)
 #cat_may_art(registro_linux)
 #NOSE LA 8
-cant_art_desc(registro_linux)
+#cant_art_desc(registro_linux)
+
+# PREGUNTAS SOBRE MEDIDAS DE DISPERSIÓN
+# POR EL MOMENTO LAS PREGUNTAS ESTÁN EN CHINO JEJEJEJE
 
 
             
