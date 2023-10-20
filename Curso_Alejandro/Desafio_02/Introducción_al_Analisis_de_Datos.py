@@ -419,3 +419,5 @@ registro_linux= r"/home/eml/Escritorio/Programacion-en-Python/Curso_Alejandro/De
 # PREGUNTAS SOBRE MEDIDAS DE DISPERSIÓN
 # POR EL MOMENTO LAS PREGUNTAS ESTÁN EN CHINO JEJEJEJE
 
+print("hola")
+
