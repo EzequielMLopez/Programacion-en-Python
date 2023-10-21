@@ -387,8 +387,6 @@ def cant_art_desc(registro):
                 contador_art += 1
                 
     print(f"La cantidad de articulos con un descuento mayor al 20% son {contador_art}")
-                
-            
 
 registro_window= r"C:\Users\tetit\OneDrive\Escritorio\Programacion-en-Python\Curso_Alejandro\Desafio_02\registros_ferreteria.csv"
 registro_linux= r"/home/eml/Escritorio/Programacion-en-Python/Curso_Alejandro/Desafio_02/registros_ferreteria.csv"
@@ -419,5 +417,6 @@ registro_linux= r"/home/eml/Escritorio/Programacion-en-Python/Curso_Alejandro/De
 # PREGUNTAS SOBRE MEDIDAS DE DISPERSIÓN
 # POR EL MOMENTO LAS PREGUNTAS ESTÁN EN CHINO JEJEJEJE
 
-print("hola")
+HACER LA SERIE DE FIGGONACCI CON METODO DE RECURSIVIDAD Y CON EL DE ITERACIÓN
+HACER EL INTERCAMBIO DE LOS VALORES DE UNA LISTA POR EL METODO DE RECURSIVIDAD
 
