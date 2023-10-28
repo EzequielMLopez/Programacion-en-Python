@@ -14,10 +14,15 @@ print(factorial(5))
 
 # SERIE DE FIGONACCI #
 def fibonacci(termino):
-    
-    if termino == 1:
-        return 1
-    
-    return fibonacci((termino - 1) + (termino - 2))
+    if termino > 1:
+        return fibonacci(termino - 1) + fibonacci(termino - 2)
+    return termino
 
 print(fibonacci(8))
+
+def suma(numero):
+    if numero == 0:
+        return 0
+    return numero + suma(numero-1)
+
+print(suma(11))
